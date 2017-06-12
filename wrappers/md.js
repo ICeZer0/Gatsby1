@@ -5,7 +5,8 @@ import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
 import Bio from 'components/Bio'
-
+import Header from '../components/common/header'
+import '../css/app.css'
 import '../css/zenburn.css'
 
 class MarkdownWrapper extends React.Component {

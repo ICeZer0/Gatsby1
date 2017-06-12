@@ -8,6 +8,7 @@ import Helmet from "react-helmet"
 import { config } from 'config'
 import include from 'underscore.string/include'
 import Bio from 'components/Bio'
+import Header from '../components/common/header'
 
 class BlogIndex extends React.Component {
   render () {

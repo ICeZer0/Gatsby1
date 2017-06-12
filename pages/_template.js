@@ -4,6 +4,7 @@ import { Container } from 'react-responsive-grid'
 import { prefixLink } from 'gatsby-helpers'
 import { rhythm, scale } from 'utils/typography'
 import { config } from 'config'
+import Header from '../components/common/header'
 
 class Template extends React.Component {
   render () {
@@ -58,6 +59,7 @@ class Template extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3/4)}`,
         }}
       >
+        <Header />
         {header}
         {children}
       </Container>
