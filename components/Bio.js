@@ -1,7 +1,7 @@
 import React from 'react'
 import { config } from 'config'
 import { rhythm } from 'utils/typography'
-import profilePic from './iDurant.jpg'
+//import profilePic from './iDurant.jpg'
 
 class Bio extends React.Component {
   render () {
@@ -12,7 +12,7 @@ class Bio extends React.Component {
         }}
       >
         <img
-          src={profilePic}
+          src={"https://www.facebook.com/photo.php?fbid=10211418669637791&set=a.1565417290713.2081367.1093820578&type=3&theater"}
           alt={`author ${config.authorName}`}
           style={{
             float: 'left',
