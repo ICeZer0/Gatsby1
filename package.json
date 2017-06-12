@@ -2,9 +2,9 @@
   "name": "gatsby-starter-blog",
   "description": "Starter Gatsby Blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Isaac Durant <ice.durant7@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/iM-Durant7/Gatsby1"
   },
   "dependencies": {
     "gatsby": "^0.12.47",

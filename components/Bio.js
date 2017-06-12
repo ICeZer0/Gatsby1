@@ -1,7 +1,7 @@
 import React from 'react'
 import { config } from 'config'
 import { rhythm } from 'utils/typography'
-import profilePic from './profile-pic.jpg'
+import profilePic from './iDurant.jpg'
 
 class Bio extends React.Component {
   render () {
@@ -22,7 +22,7 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        Written by <strong>{config.authorName}</strong> who lives and works in San Francisco building useful things. <a href="https://twitter.com/kylemathews">You should follow him on Twitter</a>
+        Written by <strong>{config.authorName}</strong> who lives enjoys sharing useful information. <a href="https://twitter.com/TechCheckNN">You should follow my Tech Blog on Twitter</a>
       </p>
     )
   }
